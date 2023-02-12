@@ -76,8 +76,8 @@ void draw() {
     }
   }
 
-  // We only consider the color found if its color distance is less than 10. 
-  // This threshold of 10 is arbitrary and you can adjust this number depending on how accurate you require the tracking to be.
+  // We only consider the color found if its color distance is less than 2. 
+  
   if (record < 2) { 
     fill(255);
     strokeWeight(4.0);
