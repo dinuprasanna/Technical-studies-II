@@ -10,7 +10,6 @@ color trackColor;
 int posA, posB;
 int grid;
 
-
 void setup() {
   
   size(800, 800);
